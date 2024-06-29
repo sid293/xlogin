@@ -33,7 +33,7 @@ function App() {
   //handle submit
   let handleSubmit = (e)=>{
     e.preventDefault();
-    if(user.username === "admin" && user.password === "admin"){
+    if(user.username === "user" && user.password === "password"){
       setSuccess(true);
       setError(false);
     }else{
