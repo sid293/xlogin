@@ -43,9 +43,9 @@ function App() {
   return (
     <div className="App">
       <h1>Login Page</h1>
-      {error && <p>Invalid useranme or password</p>}
+      {error && <p>Invalid username or password</p>}
 
-      {success? <p>Welcome, user!</p>:
+      {success? <p>Welcome, user</p>:
       <form onSubmit={handleSubmit}>
         <label>Username: </label>
         <input type="text" name="username" required onChange={handleChange} />
